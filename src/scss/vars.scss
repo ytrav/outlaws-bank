@@ -4,11 +4,10 @@
 
 @font-face {
     font-family: 'OCR-A';
-    src: url('./../../public/OCR-A.ttf') format("truetype");
+    src: url('./../assets/ocr-a-bt.ttf') format("truetype");
 }
 
 $noto: 'Noto Sans', sans-serif;
-
 $ocr: 'OCR-A';
 
 $red: #F0452D;
