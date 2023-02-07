@@ -1,0 +1,23 @@
+@use 'vars.scss' as v;
+
+.card {
+    max-width: 90vw;
+    width: 356px;
+    height: 198px;
+    border-radius: 20px;
+    background-image: v.$gradient1;
+    color: #fff;
+    padding: 21px 32px;
+    h2 {
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    h3 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+    span {
+        font-family: v.$ocr;
+    }
+}

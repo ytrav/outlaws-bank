@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+// @import url("./../assets/OCR-A.ttf");
+
+@font-face {
+    font-family: 'OCR-A';
+    src: url('./../../public/OCR-A.ttf') format("truetype");
+}
+
+$noto: 'Noto Sans', sans-serif;
+
+$ocr: 'OCR-A';
+
+$red: #F0452D;
+$green: #00CDAC;
+$gray: #536976;
+$gradient1: linear-gradient(90deg, rgba(83,105,118,1) 0%, rgba(41,46,73,1) 100%);
+$gradient2: linear-gradient(90deg, rgba(172,182,229,1) 0%, rgba(116,235,213,1) 40%, rgba(172,182,229,1) 100%);
+
+@mixin flex($direction, $justify, $align, $wrap) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+}

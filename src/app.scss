@@ -1,0 +1,20 @@
+@use 'scss/vars.scss' as v;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    font-family: v.$noto;
+    height: 100vh;
+    @include v.flex(column, flex-start, center, nowrap);
+    max-height: 800px;
+}
+
+body {
+    background-image: v.$gradient2;
+    @include v.flex(row, center, center, nowrap);
+    height: 100vh;
+}
