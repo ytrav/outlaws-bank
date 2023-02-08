@@ -11,10 +11,17 @@
     height: 100vh;
     @include v.flex(column, flex-start, center, nowrap);
     max-height: 800px;
+    gap: 21px;
+    padding-top: 73px;
 }
 
 body {
     background-image: v.$gradient2;
     @include v.flex(row, center, center, nowrap);
     height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
 }
