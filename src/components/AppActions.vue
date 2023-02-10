@@ -5,13 +5,13 @@ export default {
         return {
             actions: [
                 {
-                    label: 'Add card',
-                    icon: 'credit-card-plus-outline',
+                    label: 'Transfer',
+                    icon: 'bank',
                     path: '/',
                 },
                 {
-                    label: 'Transfer',
-                    icon: 'bank',
+                    label: 'Profile',
+                    icon: 'account',
                     path: '/',
                 },
                 {

@@ -4,10 +4,21 @@ import AppActions from './../components/AppActions.vue';
 
 export default {
     name: 'Home',
+    data() {
+        return {
+            user: this.$auth0.user,
+        }
+    },
     components: {
         AppCard,
         AppActions,
     },
+    mounted() {
+        if (this.user === undefined) {
+            this.$router.replace({ path: '/' })
+        }
+    },
+
     methods: {
         login() {
             this.$auth0.loginWithRedirect();

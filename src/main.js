@@ -8,6 +8,7 @@ import './scss/card.scss'
 import './scss/actions.scss'
 
 import App from './App.vue'
+import AppLanding from './routes/AppLanding.vue'
 import AppHome from './routes/AppHome.vue'
 import AppSettings from './routes/AppSettings.vue'
 
@@ -56,10 +57,13 @@ const store = createStore({
 const router = createRouter({
     history: createWebHistory(),
     routes: [
-        { path: '/', component: AppHome },
+        { path: '/', component: AppLanding },
+        { path: '/dashboard', component: AppHome },
         { path: '/settings', component: AppSettings },
     ]
 })
+
+
 
 
 createApp(App)

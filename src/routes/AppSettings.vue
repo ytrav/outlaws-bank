@@ -10,5 +10,5 @@ export default {
 </script>
 
 <template>
-    <AppMenu />
+  <AppMenu />
 </template>

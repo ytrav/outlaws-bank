@@ -1,4 +1,11 @@
 <script>
+import { initThinBackend } from 'thin-backend';
+import { ThinBackend } from 'thin-backend-vue';
+
+initThinBackend({
+  host: 'https://outlaws-bank.thinbackend.app',
+})
+
 import AppCard from './components/AppCard.vue';
 import AppActions from './components/AppActions.vue';
 
