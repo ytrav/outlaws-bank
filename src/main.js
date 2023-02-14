@@ -71,8 +71,8 @@ createApp(App)
     .use(store)
     .use(
         createAuth0({
-            domain: "dev-mr866tdux1g1lfxn.us.auth0.com",
-            clientId: "iav9tn8UqEt33sET2YHbJknw2MV30Ekb",
+            domain: "outlawsbank.eu.auth0.com",
+            clientId: "vaAJCyMkgjgENP6WlPpHSyqjiXRsqFFw",
             authorizationParams: {
                 redirect_uri: window.location.origin
             }
